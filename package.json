@@ -1,0 +1,24 @@
+{
+  "name": "simple-realtime-chat-app",
+  "version": "1.0.0",
+  "description": "A beginner-friendly, full-stack real-time chat application built with React, Vite, Node.js, Express, Socket.IO, and SQLite.",
+  "scripts": {
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "seed": "npm run seed --prefix server",
+    "test": "npm run test --prefix server",
+    "build": "npm run build --prefix client",
+    "start": "npm start --prefix server"
+  },
+  "keywords": [
+    "chat",
+    "realtime",
+    "socket.io",
+    "react",
+    "vite",
+    "sqlite",
+    "express"
+  ],
+  "author": "",
+  "license": "MIT"
+}
